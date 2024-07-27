@@ -14,13 +14,13 @@ import java.util.List;
 public class Main {
     // Create a scheduled executor with 1 thread
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    private static final String botToken = System.getenv("MEMEUNITAPI").trim();
+    private static final String botToken = System.getenv("Solchanbotapi").trim();
     private static int offset = 0;
 
     // create telegram api bot with bot token
     public static void main(String[] args) {
         if (botToken.isEmpty()) {
-            logger.error("MEMEUNITAPI is not set or is invalid");
+            logger.error("Solchanbotapi is not set or is invalid");
             return;
         }
         TelegramBot bot = new TelegramBot(botToken);
@@ -75,21 +75,20 @@ public class Main {
             switch (command) {
                 case "/invite", "invite" -> {
                     String messageTemplate = """
-                            [%s, joined Meme Unit yet?](https://getrichormemetrying.site)
-                            Building the Meme Unit, one meme at a time.
-                            [My story so far](https://www.youtube.com/watch?v=yL_sv70FUcQ&t=2s)
+                            [%s, joined Solchan yet?](https://www.solchan.org)
+                            For real, get paid for posting on Solchan!
                             """;
                     String personalizedMessage = formatMessageWithUserHandle(update, messageTemplate);
                     bot.execute(new SendMessage(update.message().chat().id(), personalizedMessage).parseMode(ParseMode.Markdown));
                 }
                 case "/roadmap", "roadmap" -> {
-                    String imageUrl = "https://imgur.com/a/07oSfAy"; // replace with your image URL
+                    String imageUrl = "https://imgur.com/a/wkaPixp"; // replace with your image URL
                     SendPhoto sendPhotoRequest = new SendPhoto(update.message().chat().id(), imageUrl);
                     bot.execute(sendPhotoRequest);
                     String RoadmapMessage = """
-                            *Meme Unit Roadmap*
+                            *Solchan Roadmap*
                             \s
-                            *🌐 Phase 1: Building Meme Unit 🌐*
+                            *🌐 Phase 1: Rebuilding 🌐*
                             \s
                             ✅ or x mint |date|
                             \s
@@ -101,23 +100,21 @@ public class Main {
                 }
                 case "/work" -> {
                     String messageTemplate = """
-                            *%s, ready to dive into the crypto scene and be part of something groundbreaking?*
+                            *Welcome in the Solchan ecosystem, %s!*
+                            Solchan, the Image Board of Solana!
+                            Get paid for posting on https://www.solchan.org today!
                             \s
-                            *List of commands of @MemeUnitBot, please do /worklist*
-                            \s
-                            Meme Unit website: https://getrichormemetrying.site
+                            *List of commands of @SolchanBot, please do /worklist*
                             \s
                             *Social Networks*
                             \s
-                            📢 Website | [Meme Unit Website](https://getrichormemetrying.site)
-                            💬 Community | [Telegram Chat](https://t.me/getrichormemetrying)
-                            🐦 Meme Unit X | [Meme Unit X](https://x.com/memeunit_ent)
-                            🎮 INSTAGRAM | [FOFTY $ENT Instagram](https://www.instagram.com/foftysent)
+                            📢 Solchan Ecosystem | [Solchan telegram](hhttps://t.me/solchan_portal)
+                            🐦 Solchan Ecosystem | [Solchan X](https://x.com/Solchan_org)
                             \s
                             *Market and DEFi*
                             \s
-                            Buy on Raydium: [Start swapping]
-                            CHART: [GeckoTerminal]
+                            Buy on Raydium: [Start swapping](https://raydium.io/swap/?inputMint=sol&outputMint=ChanM2vka4gJ3ob1SejJXnxoNuoAXGGJxDMJRSLD7nzW)
+                            CHART: [GeckoTerminal](https://www.geckoterminal.com/solana/pools/CRn7xMrVgKSVAy7wM2ZGV8RvpACtVBp5L85YuF14u6ss)
                             """;
                     String personalizedMessage = formatMessageWithUserHandle(update, messageTemplate);
                     bot.execute(new SendMessage(update.message().chat().id(), personalizedMessage).parseMode(ParseMode.Markdown));
@@ -128,7 +125,7 @@ public class Main {
                             \s
                             As our community continues to grow, it is important to stay vigilant against potential scams.
                             \s
-                            *MEME UNIT RULES OF THUMBS*
+                            *RULES OF THUMBS*
                             \s
                             *1.* Do Not Trust Direct Messages (DMs): Our team will never reach out to you via direct message for personal information, investment opportunities, or any other sensitive matters.
                             \s
@@ -146,10 +143,10 @@ public class Main {
                             \s
                             %s, happy to help you with the following:
                             \s
-                            *\uD83C\uDF10 Meme Unit default commands*
+                            *\uD83C\uDF10 SolchanBot default commands*
                             /work, /worklist, /roadmap, /invite, /scam
                             \s
-                            *\uD83C\uDF10 Meme Unit partners*
+                            *\uD83C\uDF10 Solchan partners*
                             """;
                     String personalizedMessage = formatMessageWithUserHandle(update, messageTemplate);
                     bot.execute(new SendMessage(update.message().chat().id(), personalizedMessage).parseMode(ParseMode.Markdown));
