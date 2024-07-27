@@ -17,12 +17,14 @@ public class Main {
     private static final String botToken = System.getenv("SolchanBotAPI").trim();
     private static int offset = 0;
 
-    // create telegram api bot with bot token
     public static void main(String[] args) {
+        logger.info("Starting Main method.");
+
         if (botToken.isEmpty()) {
             logger.error("SolchanBotAPI is not set or is invalid");
             return;
         }
+        logger.info("Bot token is set correctly: {}", botToken);
         TelegramBot bot = new TelegramBot(botToken);
 
         // Poll for updates
@@ -43,6 +45,8 @@ public class Main {
                 logger.error("Error processing updates: {}", e.getMessage());
             }
         }
+
+        logger.info("Ending Main method.");
     }
 
     private static String formatMessageWithUserHandle(Update update, String messageTemplate) {

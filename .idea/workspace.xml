@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fd1c9ec-d7fb-43da-b4ad-938a86e15328" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Solchan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Solchan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Solchan.Main" />
+      <module name="Solchanbot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Solchan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,6 +96,7 @@
       <workItem from="1722059824907" duration="356000" />
       <workItem from="1722060190479" duration="259000" />
       <workItem from="1722060456272" duration="67000" />
+      <workItem from="1722060685123" duration="936000" />
     </task>
     <servers />
   </component>
