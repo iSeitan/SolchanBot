@@ -1,24 +1,32 @@
-Ready to dive into the crypto scene and be part of something groundbreaking?
-You’re in the right spot!
-Join us as we explore the endless possibilities of web3 and build a vibrant community that welcomes everyone.
-Let’s make moves and innovate together!
+🌟 Get Ready to be MindBlown with $MINDN! 🌟
+
+$MINDN is the upgraded and decentralized version of channel points. You earn by engaging in the community. We’re MindBlown! 🚀
 
 ### 🌐 Social Networks
 
-📢 Website | [Meme Unit Website](https://getrichormemetrying.site)
-💬 Community | [Telegram Chat](https://t.me/getrichormemetrying)
-🐦 Meme Unit X | [Meme Unit X](https://x.com/memeunit_ent)
-🎮 INSTAGRAM | [FOFTY $ENT Instagram](https://www.instagram.com/foftysent)
-
+📢 $MINDN Ecosystem | News: [Join us on Telegram](https://t.me/MindBlownProject)  
+💬 $MINDN Ecosystem | Chat and Memes: [Join the fun](https://t.me/MindBlowngraphicsmemes/1)  
+💸 $MINDN Ecosystem | Shill and Earn: [Earn with us](https://t.me/MindBlownCommunity)  
+📝 MindBlown Subreddit: [r/ProjectMindBlown](https://www.reddit.com/r/ProjectMindBlown/)  
+🎮 MindBlown $MINDN Ecosystem | Discord: [Join our Discord](https://discord.gg/93XJtRQWkW)  
+🐦 MindBlown Founder's X: [Follow on X](https://x.com/SeitanSurKick)
 
 ### 💹 Market and DEFi
+🔥 Burnt LP Token: [View on Solscan](https://solscan.io/tx/3usMDeJyfFeKBrr6piNKwqMLUCBPqL14TQzeXPTEp5J3fqEWtT9gvxvhK6daES9pCFHHLgwncW4MHbyEabEPLkGZ)  
 
+🌐 Swap $MINDN on Raydium: [Start swapping](https://raydium.io/swap/?inputMint=sol&outputMint=4bEMorkYYDojk98Pk2hRTScvh6HwKgvrikzEcP2dY545)
 
-### 🤔 When will we be on DexScreener or other DEX/CEX?
+📈 $MINDN Charts:
+- [BirdEye](https://birdeye.so/token/4bEMorkYYDojk98Pk2hRTScvh6HwKgvrikzEcP2dY545?chain=solana)
+
+- [GeckoTerminal](https://www.geckoterminal.com/solana/pools/GXvnPwpJs22Q6YvUr6eA9EJV7Dt23RUH6m7jw9DW8o48)
+
+### 🤔 When will $MINDN be on DexScreener or other DEX/CEX?
 
 We are working on it! Planning to add a new Liquidity pool on Raydium and burn the LP.
 We'll be there quickly enough 🚀
 
-![Screenshot 2024-07-23 192847](https://github.com/user-attachments/assets/0003116c-e85b-4cf9-8bfc-9c73bf1fec71)
+How high can we get with a healthy project full of values and utility? Maybe I'm just too MindBlown for y'all.
+MindBlown yet? Let me know, I'm real and you know it.
 
-
+![MINDN Swat Team](https://github.com/user-attachments/assets/7b04f5d0-324e-40ac-8b6c-26bfc30e8c01)
