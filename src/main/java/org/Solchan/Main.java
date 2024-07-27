@@ -14,13 +14,13 @@ import java.util.List;
 public class Main {
     // Create a scheduled executor with 1 thread
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    private static final String botToken = System.getenv("Solchanbotapi").trim();
+    private static final String botToken = System.getenv("SolchanBotAPI").trim();
     private static int offset = 0;
 
     // create telegram api bot with bot token
     public static void main(String[] args) {
         if (botToken.isEmpty()) {
-            logger.error("Solchanbotapi is not set or is invalid");
+            logger.error("SolchanBotAPI is not set or is invalid");
             return;
         }
         TelegramBot bot = new TelegramBot(botToken);
