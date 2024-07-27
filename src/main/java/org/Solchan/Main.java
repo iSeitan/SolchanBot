@@ -109,7 +109,7 @@ public class Main {
                             \s
                             *Social Networks*
                             \s
-                            📢 Solchan Ecosystem | [Solchan telegram](hhttps://t.me/solchan_portal)
+                            📢 Solchan Ecosystem | [Solchan telegram](https://t.me/solchan_portal)
                             🐦 Solchan Ecosystem | [Solchan X](https://x.com/Solchan_org)
                             \s
                             *Market and DEFi*
