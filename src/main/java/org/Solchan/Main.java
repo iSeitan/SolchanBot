@@ -14,16 +14,13 @@ import java.util.List;
 public class Main {
     // Create a scheduled executor with 1 thread
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    private static final String botToken = System.getenv("SolchanBotAPI").trim();
+    // token in environment variable with TELEGRAM_BOT_TOKEN, it's currently hardcoded, but only because it stops working when using variable and I don't see why
+    private static final String botToken = "7212202400:AAE4G5uoqPzZOnKtwmy-QFBckMT_IxDQ5zw";
     private static int offset = 0;
 
     public static void main(String[] args) {
         logger.info("Starting Main method.");
 
-        if (botToken.isEmpty()) {
-            logger.error("SolchanBotAPI is not set or is invalid");
-            return;
-        }
         logger.info("Bot token is set correctly: {}", botToken);
         TelegramBot bot = new TelegramBot(botToken);
 
