@@ -13,6 +13,7 @@ import java.util.List;
 
 public class Main {
     // Create a scheduled executor with 1 thread
+    // use the bot token with .main in the updates to retrieve correctly the variable.
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
     // token in environment variable with TELEGRAM_BOT_TOKEN, it's currently hardcoded, but only because it stops working when using variable and I don't see why
     private static final String botToken = "7212202400:AAE4G5uoqPzZOnKtwmy-QFBckMT_IxDQ5zw";
